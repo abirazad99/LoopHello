@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "/var/lib/jenkins/.nuget/packages/": {}
+    "/home/nucleus/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/var/lib/jenkins/BuildApp/BuildApp.csproj",
+      "projectUniqueName": "/home/nucleus/LoopHello/BuildApp.csproj",
       "projectName": "BuildApp",
-      "projectPath": "/var/lib/jenkins/BuildApp/BuildApp.csproj",
-      "packagesPath": "/var/lib/jenkins/.nuget/packages/",
-      "outputPath": "/var/lib/jenkins/BuildApp/obj/",
+      "projectPath": "/home/nucleus/LoopHello/BuildApp.csproj",
+      "packagesPath": "/home/nucleus/.nuget/packages/",
+      "outputPath": "/home/nucleus/LoopHello/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/var/lib/jenkins/.nuget/NuGet/NuGet.Config"
+        "/home/nucleus/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"

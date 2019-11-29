@@ -1,0 +1,30 @@
+pipeline{
+    agent any
+    // environment{
+    //     // HOME = '/home/jenkins'
+    //     // NUGET_PACKAGES = '/home/ishrak/.nuget/packages/'
+    // }
+    stages{
+        stage('Restore'){
+            steps{
+                sh "dotnet restore"
+            }
+        }
+        stage('Clean'){
+            steps{
+                sh "dotnet clean"
+            }
+        }
+        stage('Build'){
+            steps{
+                sh "dotnet build"
+            }
+        }
+        stage('Publish'){
+            steps{
+                sh "dotnet publish -c release -o /Output"
+            }
+        }
+		
+    }
+}

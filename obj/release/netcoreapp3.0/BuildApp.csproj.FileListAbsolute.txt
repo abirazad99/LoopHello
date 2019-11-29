@@ -9,3 +9,14 @@
 /var/lib/jenkins/BuildApp/obj/release/netcoreapp3.0/BuildApp.AssemblyInfo.cs
 /var/lib/jenkins/BuildApp/obj/release/netcoreapp3.0/BuildApp.dll
 /var/lib/jenkins/BuildApp/obj/release/netcoreapp3.0/BuildApp.pdb
+/home/nucleus/LoopHello/bin/release/netcoreapp3.0/BuildApp
+/home/nucleus/LoopHello/bin/release/netcoreapp3.0/BuildApp.deps.json
+/home/nucleus/LoopHello/bin/release/netcoreapp3.0/BuildApp.runtimeconfig.json
+/home/nucleus/LoopHello/bin/release/netcoreapp3.0/BuildApp.runtimeconfig.dev.json
+/home/nucleus/LoopHello/bin/release/netcoreapp3.0/BuildApp.dll
+/home/nucleus/LoopHello/bin/release/netcoreapp3.0/BuildApp.pdb
+/home/nucleus/LoopHello/obj/release/netcoreapp3.0/BuildApp.csprojAssemblyReference.cache
+/home/nucleus/LoopHello/obj/release/netcoreapp3.0/BuildApp.AssemblyInfoInputs.cache
+/home/nucleus/LoopHello/obj/release/netcoreapp3.0/BuildApp.AssemblyInfo.cs
+/home/nucleus/LoopHello/obj/release/netcoreapp3.0/BuildApp.dll
+/home/nucleus/LoopHello/obj/release/netcoreapp3.0/BuildApp.pdb
