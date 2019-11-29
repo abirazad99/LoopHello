@@ -1,0 +1,11 @@
+/var/lib/jenkins/BuildApp/bin/release/netcoreapp3.0/BuildApp
+/var/lib/jenkins/BuildApp/bin/release/netcoreapp3.0/BuildApp.deps.json
+/var/lib/jenkins/BuildApp/bin/release/netcoreapp3.0/BuildApp.runtimeconfig.json
+/var/lib/jenkins/BuildApp/bin/release/netcoreapp3.0/BuildApp.runtimeconfig.dev.json
+/var/lib/jenkins/BuildApp/bin/release/netcoreapp3.0/BuildApp.dll
+/var/lib/jenkins/BuildApp/bin/release/netcoreapp3.0/BuildApp.pdb
+/var/lib/jenkins/BuildApp/obj/release/netcoreapp3.0/BuildApp.csprojAssemblyReference.cache
+/var/lib/jenkins/BuildApp/obj/release/netcoreapp3.0/BuildApp.AssemblyInfoInputs.cache
+/var/lib/jenkins/BuildApp/obj/release/netcoreapp3.0/BuildApp.AssemblyInfo.cs
+/var/lib/jenkins/BuildApp/obj/release/netcoreapp3.0/BuildApp.dll
+/var/lib/jenkins/BuildApp/obj/release/netcoreapp3.0/BuildApp.pdb
