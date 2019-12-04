@@ -32,7 +32,7 @@ pipeline{
         }
         stage('Rsync'){
             steps{
-                sh "rsync -a /var/lib/jenkins/workspace/LoopHello/Output nucleus@localhost:/home/nucleus/mydll"
+                sh "rsync -a /var/lib/jenkins/workspace/LoopHello/Output/ nucleus@localhost:/home/nucleus/mydll"
             }
         }
 		
