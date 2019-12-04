@@ -25,6 +25,11 @@ pipeline{
                 sh "dotnet publish -c release -o ./Output"
             }
         }
+        stage('Remote Deploy'){
+            steps{
+                sh "ssh nucleus@localhost"
+            }
+        }
 		
     }
 }
