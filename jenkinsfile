@@ -25,7 +25,7 @@ pipeline{
                 sh "dotnet publish -c release -o ./Output"
             }
         }
-        stage('Remote Deploy'){
+        stage('Check Remote Connection'){
             steps{
                 sh "ssh nucleus@localhost"
             }
@@ -33,6 +33,11 @@ pipeline{
         stage('Rsync'){
             steps{
                 sh "rsync -a /var/lib/jenkins/workspace/LoopHello/Output/ nucleus@localhost:/home/nucleus/mydll"
+            }
+        }
+        stage('Restart Daemon'){
+            steps{
+                sh "systemctl -H nucleus@localhost reload-or-restart myservice.service"
             }
         }
 		
