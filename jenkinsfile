@@ -37,8 +37,7 @@ pipeline{
         }
         stage('Restart Daemon'){
             steps{
-                sh "ssh -T nucleus@localhost"
-                sh "sudo systemctl restart myservice.service"
+                sh "ssh nucleus@localhost sudo systemctl restart myservice.service" 
             }
         }
 		
